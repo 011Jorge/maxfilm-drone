@@ -1,5 +1,11 @@
+import { ContainerHome } from "./styles";
+
 function Home() {
-  return <h1>I am Home</h1>;
+  return (
+    <ContainerHome>
+      <h1>I am Home</h1>
+    </ContainerHome>
+  );
 }
 
 export default Home;
