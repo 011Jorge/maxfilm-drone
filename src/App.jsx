@@ -1,5 +1,11 @@
+import Home from "./containers/Home";
+
 function App() {
-  return <h1>I am App</h1>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
