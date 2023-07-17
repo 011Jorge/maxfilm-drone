@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Background from "../../assets/background.jpg";
+import BackgroundAbout from "../../assets/backgroundAbout.jpg";
 
 export const ContainerHome = styled.div``;
 
@@ -35,11 +36,74 @@ export const ContainerAds = styled.div`
   }
 `;
 
+export const ContainerAbout = styled.div`
+  height: 100vh;
+  background-image: url(${BackgroundAbout});
+  background-position: 20em;
+
+  div {
+    padding-top: 300px;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    width: 700px;
+  }
+
+  button {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+
+    cursor: pointer;
+
+    background: purple;
+    opacity: 0.6;
+  }
+`;
+
 export const ContainerServices = styled.div`
   height: 100vh;
+  background-color: #010511;
 
   h1 {
     text-align: center;
     font-size: 50px;
+    padding: 30px;
+
+    color: #fff;
+  }
+
+  .divServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .services {
+      width: 500px;
+      height: 500px;
+
+      margin: 20px;
+
+      border-radius: 18px;
+      background-color: gray;
+    }
   }
 `;
