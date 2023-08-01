@@ -1,3 +1,5 @@
+import { FaRegObjectUngroup } from "react-icons/fa6";
+
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import {
@@ -36,7 +38,14 @@ function Home() {
         <h1>O que oferecemos para você</h1>
         <div className="divServices">
           <div className="services"></div>
-          <div className="services"></div>
+          <div className="services">
+            <h2>Perspectiva Avançada</h2>
+            <p>
+              As imagens aéreas proporcionadas por drones permitem uma visão
+              detalhada dos imóveis, tornando mais fácil para os clientes
+              visualizar a propriedade antes de visitá-la pessoalmente.
+            </p>
+          </div>
           <div className="services"></div>
         </div>
       </ContainerServices>

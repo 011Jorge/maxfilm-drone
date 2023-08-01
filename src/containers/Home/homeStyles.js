@@ -69,13 +69,17 @@ export const ContainerAbout = styled.div`
     font-weight: 500;
 
     border-radius: 8px;
-    border: 1px solid #fff;
     color: #fff;
+    border: none;
 
     cursor: pointer;
 
-    background: purple;
-    opacity: 0.6;
+    background: #5b83f7;
+
+    &:hover {
+      opacity: 0.6;
+      transition: 0.8s;
+    }
   }
 `;
 
@@ -104,6 +108,18 @@ export const ContainerServices = styled.div`
 
       border-radius: 18px;
       background-color: gray;
+
+      text-align: center;
+
+      h2 {
+        font-size: 28px;
+        margin-top: 100px;
+      }
+
+      p {
+        margin-top: 20px;
+        font-size: 20px;
+      }
     }
   }
 `;
